@@ -39,7 +39,7 @@ class datadog_agent::params {
         }
         default: {
           $ruby_package           = 'ruby'
-          $rubygems_package       = 'rubygems'
+          $rubygems_package       = 'rubygems-integration'
         }
       }
       $legacy_conf_dir            = '/etc/dd-agent/conf.d'
